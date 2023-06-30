@@ -1,0 +1,33 @@
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      color: #333;
+    }
+    .container {
+      max-width: 300px;
+      margin: auto;
+      margin-top: 100px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .input-group {
+      margin-bottom: 10px;
+    }
+    .input-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .convert-button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 10px 30px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .convert-button:hover {
+      background-color: #0056b3;
+    }

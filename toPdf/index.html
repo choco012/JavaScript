@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>이미지를 PDF로 변환하기</title>
+  <link rel ="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="input-group">
+      <label for="imageInput">이미지 선택</label><br>
+      <div id="imageContainer">
+        <img id="selectedImage" src="#" alt="" />
+      </div>
+      <input id="imageInput" type="file" accept="image/*" />
+    </div><br>
+    <button class="convert-button">변환</button>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.0/html2canvas.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
